@@ -68,8 +68,9 @@ function setupRevealTextAnimations() {
     scrollTrigger: {
       trigger: "#reveal-text",
       start: "top 80%",
-      end: "top 40%",
-      scrub: 2
+      end: "top 50%",
+      scrub: 2,
+      
     }
   });
 
@@ -82,7 +83,8 @@ function setupRevealTextAnimations() {
       trigger: "#reveal-text2",
       start: "top 70%",
       end: "top 60%",
-      scrub: 2
+      scrub: 2,
+     
     }
   });
 }
