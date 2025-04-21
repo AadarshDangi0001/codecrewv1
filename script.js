@@ -49,7 +49,66 @@ gsap.to(".head2 h1",{
 
     }
 })
+function splitWords(selector) {
+    const element = document.querySelector(selector);
+    const words = element.innerText.split(" ");
+    element.innerHTML = words
+      .map((word) => `<span class="word">${word}</span>`)
+      .join(" ");
+  }
+  
+  splitWords("#reveal-text");
+  splitWords("#reveal-text2");
 
+  gsap.to("#reveal-text .word", {
+    color: "#fff",
+    opacity: 1,
+    stagger: 0.5,
+    duration: 1.2,
+    scrollTrigger: {
+      trigger: "#reveal-text",
+      start: "top 80%",
+      end: "top 40%",
+      scrub: 2,
+    },
+  });
+  
+  gsap.to("#reveal-text2 .word", {
+    color: "#fff",
+    opacity: 1,
+    stagger: 0.5,
+    duration: 1.2,
+    scrollTrigger: {
+      trigger: "#reveal-text2",
+      start: "top 74%",
+      end: "top 60%",
+      scrub: 2,
+    //   markers:true
+    },
+  });
+
+
+
+// const h1 = document.querySelector("#reveal-text2");
+// const wordss = h2.textContent.split(" ");
+
+// h1.innerHTML = wordss
+//   .map(word2 => `<span class="word">${word2}</span>`)
+//   .join(" ");
+
+// gsap.to(".word2", {
+//   color: "#fff",
+//   opacity: 1,
+// stagger: 0.5,
+// duration: 1.2,
+//   scrollTrigger: {
+//     trigger: ".scroll-text",
+//     start: "top 80%",
+//     end: "top 0%",
+//     scrub: 2,
+//     markers: true
+//   }
+// });
 
 function setupCursorInteractions() {
     const coords = { x: 0, y: 0 };
