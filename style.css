@@ -453,7 +453,7 @@ body::selection {
   
 }
 
-.footlink h1:hover{
+.footlink:hover{
   color: white;
   font-size: 1.5rem;
 }
@@ -500,7 +500,7 @@ body::selection {
 }
 
 .faq1-item.active .faq1-answer {
-  max-height: 300px;
+  max-height: 800px;
   padding: 15px 20px 20px;
 }
 
