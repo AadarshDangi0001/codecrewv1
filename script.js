@@ -80,7 +80,7 @@ function splitWords(selector) {
     duration: 1.2,
     scrollTrigger: {
       trigger: "#reveal-text2",
-      start: "top 74%",
+      start: "top 70%",
       end: "top 60%",
       scrub: 2,
     //   markers:true
@@ -89,26 +89,7 @@ function splitWords(selector) {
 
 
 
-// const h1 = document.querySelector("#reveal-text2");
-// const wordss = h2.textContent.split(" ");
 
-// h1.innerHTML = wordss
-//   .map(word2 => `<span class="word">${word2}</span>`)
-//   .join(" ");
-
-// gsap.to(".word2", {
-//   color: "#fff",
-//   opacity: 1,
-// stagger: 0.5,
-// duration: 1.2,
-//   scrollTrigger: {
-//     trigger: ".scroll-text",
-//     start: "top 80%",
-//     end: "top 0%",
-//     scrub: 2,
-//     markers: true
-//   }
-// });
 
 function setupCursorInteractions() {
     const coords = { x: 0, y: 0 };
