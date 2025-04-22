@@ -1103,6 +1103,9 @@ nav ul li span:nth-child(4) {
       color: #cac9c9;
     }
   }
+  .page2{
+    display: none;
+  }
 }
 @media (max-width: 840px) {
 
@@ -1112,7 +1115,7 @@ nav ul li span:nth-child(4) {
     -moz-user-select: none;    /* Firefox */
     -ms-user-select: none;     /* IE/Edge */
   }
-
+  
   .navbar {
      padding: 0 5vh;
     .logo {
@@ -1825,232 +1828,155 @@ nav ul li span:nth-child(4) {
 }
 
 
-@media (max-width: 1285px) {
-  .page2 {
-   
-   height:30vh;
-   }
-   .page2 .head {
-    width: 280vw; 
-    height: 18vh;
-  }
-  .page2 .head2 {
-    width: 180vw; 
-    height: 18vh;
-  }
-
-  
-}
-@media (max-width: 1195px) {
-  .page2 {
-   
-   height:30vh;
-  }
-  .page2 .head {
-    width: 300vw; /* slightly smaller than original 200vw */
-    height: 16vh;
-  }
-  .page2 .head2 {
-    width: 190vw;
-    height: 16vh;
-  }
-
-  
-}
-@media (max-width: 1140px) {
-  .page2 {
-      height:30vh;
-  }
-  .page2 .head {
-    width: 310vw; /* slightly smaller than original 200vw */
-    height: 14vh;
-  }
-  .page2 .head2 {
-    width: 190vw;
-    height: 14vh;
-    
-  }
-}
-@media (max-width: 995px){
-  .page2 {
-     height:30vh;
-     }
-     .page2 .head {
-       width: 320vw; /* slightly smaller than original 200vw */
-       height: 12vh;
-      }
-     .page2 .head2 {
-       width: 200vw;
-       height: 12vh;
-      }
-  }
-@media (max-width: 960px){
-  .page2 {
-      height:30vh;
-     }
-     .page2 .head {
-       width: 330vw; /* slightly smaller than original 200vw */
-       height: 12vh;
-       
-     }
-     .page2 .head2 {
-       width: 200vw;
-       height: 12vh;
-      }
-  }
-@media (max-width: 900px){
-  .page2 {
-      height:20vh;
-     }
-     .page2 .head {
-       width: 300vw; /* slightly smaller than original 200vw */
-       height: 12vh;
-      }
-     .page2 .head2 {
-       width:180vw;
-       height: 12vh;
-      
-     }
    
      
-}@media (max-width: 800px){
+@media (max-width: 800px){
   .page2 {
-      height:20vh;
-     }
-     .page2 .head {
-       width: 320vw; /* slightly smaller than original 200vw */
-       height: 12vh;
-       
-     }
-     .page2 .head2 {
-       width:170vw;
-       height: 12vh;
-      
-     }
+   
+    height:20vh;
+    display: flex;
+   }
+ 
+   .page2 .head {
+    width: 250vw; /* slightly smaller than original 200vw */
+    height: 8vh;
+   }
+   .page2 .head2 {
+    width:270vw;
+    height: 8vh;
+   
+  }
   }
 @media(max-width:700px){
   .page2 {
-      height:15vh;
-     }
    
-     .page2 .head {
-       width: 300vw; /* slightly smaller than original 200vw */
-       height: 10vh;
-      }
-     .page2 .head2 {
-       width:170vw;
-       height: 10vh;
-       
-     }
+    height:18vh;
+   }
+ 
+   .page2 .head {
+    width: 200vw; /* slightly smaller than original 200vw */
+    height: 8vh;
+   }
+   .page2 .head2 {
+    width:310vw;
+    height: 8vh;
+   
+  }
   }
 @media(max-width:660px){
   .page2 {
-      height:15vh;
-     }
-     .page2 .head {
-       width: 300vw; /* slightly smaller than original 200vw */
-       height: 10vh;
-      
-     }
-     .page2 .head2 {
-       width:180vw;
-       height: 10vh;
-       
-     }
+   
+    height:17vh;
+   }
+ 
+   .page2 .head {
+    width: 300vw; /* slightly smaller than original 200vw */
+    height: 8vh;
+   }
+   .page2 .head2 {
+    width:320vw;
+    height: 8vh;
+   
+  }
   }
 
 @media(max-width:600px){
   .page2 {
-      height:15vh;
-     }
-     .page2 .head {
-       width: 300vw; /* slightly smaller than original 200vw */
-       height: 9vh;
-       
-     }
-     .page2 .head2 {
-       width:190vw;
-       height: 9vh;
-       
-     }
+   
+    height:17vh;
+   }
+ 
+   .page2 .head {
+    width: 300vw; /* slightly smaller than original 200vw */
+    height: 7vh;
+   }
+   .page2 .head2 {
+    width:350vw;
+    height: 7vh;
+   
+  }
   }
 @media(max-width:550px){
   .page2 {
-      
-      height:15vh;
-     }
-   
-     .page2 .head {
-       width: 300vw; /* slightly smaller than original 200vw */
-       height: 9vh;
-      }
-      .page2 .head2 {
-       width:200vw;
-       height: 9vh;
-      }
-  }
-@media(max-width:500px){
-  .page2 {
-      
-      height:15vh;
-     }
-   
-     .page2 .head {
-       width: 300vw; /* slightly smaller than original 200vw */
-       height: 9vh;
-      }
-      .page2 .head2 {
-       width:210vw;
-       height: 9vh;
      
+      height:17vh;
      }
+   
+     .page2 .head {
+      width: 300vw; /* slightly smaller than original 200vw */
+      height: 7vh;
+     }
+     .page2 .head2 {
+      width:320vw;
+      height: 7vh;
+     
+    }
   }
+
 @media(max-width:480px){
   .page2 {
-      
-      height:10vh;
+     
+      height:17vh;
      }
    
      .page2 .head {
-       width: 280vw; /* slightly smaller than original 200vw */
-       height: 9vh;
-      }
-      .page2 .head2 {
-       width:180vw;
-       height: 9vh;
-      }
+      width: 300vw; /* slightly smaller than original 200vw */
+      height: 7vh;
+     }
+     .page2 .head2 {
+      width:350vw;
+      height: 7vh;
+     
+    }
   }
 @media(max-width:450px){
   .page2 {
-      /* background-color: #002bff; */
-      height:10vh;
+     
+      height:17vh;
      }
    
      .page2 .head {
-       width: 200vw; /* slightly smaller than original 200vw */
-       height: 5vh;
-      }
-      .page2 .head2 {
-       width:310vw;
-       height: 5vh;
-      
+      width: 400vw; /* slightly smaller than original 200vw */
+      height: 6vh;
      }
+     .page2 .head2 {
+      width:300vw;
+      height: 6vh;
+     
+    }
   }
 
 
   @media(max-width:420px){
     .page2 {
-        /* background-color: #002bff; */
-        height:10vh;
+       
+        height:17vh;
        }
      
        .page2 .head {
-         width: 200vw; /* slightly smaller than original 200vw */
-         height: 5vh;
+         width: 400vw; /* slightly smaller than original 200vw */
+         height: 6vh;
         }
         .page2 .head2 {
-         width:320vw;
-         height: 5vh;
+         width:330vw;
+         height: 6vh;
         
        }
     }
+
+    @media(max-width:400px){
+      .page2 {
+         
+          height:17vh;
+         }
+       
+         .page2 .head {
+           width: 400vw; /* slightly smaller than original 200vw */
+           height: 6vh;
+          }
+          .page2 .head2 {
+           width:350vw;
+           height: 6vh;
+          
+         }
+      }
