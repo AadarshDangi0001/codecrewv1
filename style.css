@@ -1475,11 +1475,11 @@ nav ul li span:nth-child(4) {
         width: 100%;
         /* background-color: #00ffd5; */
         margin-left: 3vh;
-        gap: 4vw;
+        gap: 16vw;
         .footlink {
           gap: 3vh;
           h1 {
-            font-size: 1.3rem;
+            font-size: 0.9rem;
           }
         }
       }
@@ -1565,11 +1565,11 @@ nav ul li span:nth-child(4) {
       .footerlinks {
         width: 100%;
 
-        gap: 4vw;
+        gap: 15vw;
         .footlink {
           gap: 3vh;
           h1 {
-            font-size: 1.2rem;
+            font-size: 0.8rem;
           }
         }
       }
@@ -1654,11 +1654,11 @@ nav ul li span:nth-child(4) {
       .footerlinks {
         width: 100%;
 
-        gap: 4vw;
+        gap: 15vw;
         .footlink {
           gap: 3vh;
           h1 {
-            font-size: 1.2rem;
+            font-size: 0.7rem;
           }
         }
       }
