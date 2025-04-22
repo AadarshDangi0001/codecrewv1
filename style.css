@@ -38,7 +38,7 @@ body::selection {
   .logo {
     width: 4vw;
     height: 7vh;
-    background-color: aqua;
+    
     img {
       width: 100%;
       height: 100%;
@@ -55,7 +55,9 @@ body::selection {
       font-size: 1.5rem;
       cursor: pointer !important ;
     }
-
+    i{
+      display: none;
+    }
     nav ul {
       list-style-type: none;
       margin: 0;
@@ -130,7 +132,7 @@ body::selection {
 
   .main-img {
     height: 100vh;
-    background-color: aqua;
+    
 
     img {
       width: 100%;
@@ -214,7 +216,7 @@ body::selection {
     /* .button1{
       width: 100%;
       height: 100%;
-       background-color: aqua;
+       
     } */
 
     nav ul {
@@ -222,7 +224,7 @@ body::selection {
       margin: 0;
       padding: 0;
     }
-
+    
     .btn2 {
       cursor: pointer;
       --c: rgb(255, 255, 255);
@@ -463,7 +465,7 @@ body::selection {
 
 .faq1-question {
   /* font-weight: 200; */
-  /* background-color: aqua; */
+  /*  */
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -509,7 +511,7 @@ body::selection {
 .page2 {
   width: 100vw;
   height: 50vh;
-  /* background-color: aqua; */
+  /*  */
   /* position: absolute; */
   position: relative;
   margin-bottom: 10vh;
@@ -763,6 +765,35 @@ nav ul li span:nth-child(4) {
   .imgscollor {
     overflow: hidden;
   }
+
+  .navbar {
+   
+    .logo {
+      width: 4vw;
+      height: 7vh;
+      
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .rightnav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0vw;
+      h1 {
+        font-weight: 350;
+        font-size: 1.5rem;
+        cursor: pointer !important ;
+      }
+  
+
+  
+     
+    }
+  }
   .view-3 {
     margin-top: 0;
     /* background-color: #00ffd5; */
@@ -867,6 +898,44 @@ nav ul li span:nth-child(4) {
   }
 }
 @media (max-width: 1060px) {
+
+  .navbar {
+   
+    .logo {
+      width: 6vw;
+      height: 7vh;
+      
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .rightnav {
+      /* display: flex;
+      justify-content: center;
+      align-items: center; */
+      gap: -3vw;
+
+      i{
+        display: block;
+        font-size: 2.5rem;
+        font-weight: 100;
+        cursor: pointer;
+      }
+      h1 {
+        display: none;
+        font-weight: 350;
+        font-size: 1.5rem;
+        cursor: pointer !important ;
+      }
+  
+
+    }
+  }
+  .cursor{
+    display: none;
+  }
   .navbar {
     overflow-x: hidden;
   }
@@ -988,6 +1057,44 @@ nav ul li span:nth-child(4) {
   }
 }
 @media (max-width: 840px) {
+
+  .navbar {
+     padding: 0 5vh;
+    .logo {
+      width: 6vw;
+      height: 7vh;
+      
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .rightnav {
+      /* display: flex;
+      justify-content: center;
+      align-items: center; */
+      /* gap: -3vw; */
+
+      i{
+        display: block;
+        font-size: 2.5rem;
+        font-weight: 100;
+        cursor: pointer;
+      }
+      h1 {
+        display: none;
+        font-weight: 350;
+        font-size: 1.5rem;
+        cursor: pointer !important ;
+      }
+  
+
+    }
+  }
+  .cursor{
+    display: none;
+  }
   .navbar {
     overflow-x: hidden;
   }
@@ -1129,6 +1236,50 @@ nav ul li span:nth-child(4) {
 }
 
 @media (max-width: 540px) {
+  .navbar {
+    padding: 0 5vh;
+   .logo {
+     width: 8vw;
+     height: 7vh;
+     
+     img {
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+     }
+   }
+   .rightnav {
+     /* display: flex;
+     justify-content: center;
+     align-items: center; */
+     /* gap: -3vw; */
+     nav ul li {
+     
+      font-size: 15px;
+     
+      width: 8em;
+      height: 3rem;
+     
+    }
+     i{
+       display: block;
+       font-size: 2.5rem;
+       font-weight: 100;
+       cursor: pointer;
+     }
+     h1 {
+       display: none;
+       font-weight: 350;
+       font-size: 1.5rem;
+       cursor: pointer !important ;
+     }
+ 
+
+   }
+ }
+  .cursor{
+    display: none;
+  }
   .navbar {
     overflow-x: hidden;
   }
