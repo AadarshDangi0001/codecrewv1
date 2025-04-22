@@ -1532,7 +1532,7 @@ nav ul li span:nth-child(4) {
   position: fixed;
   top: 0;
   right: -100%;
-  width: 200px;
+  width: 150px;
   height: 100vh;
   background-color: #000000;
   color: white;
@@ -1558,8 +1558,8 @@ nav ul li span:nth-child(4) {
 }
 
 .sidebar li {
-  margin: 4vh 0;
-  font-size: 1.5rem;
+  margin: 2vh 0;
+  font-size: 1rem;
   cursor: pointer;
 }
 
