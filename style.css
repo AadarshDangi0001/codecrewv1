@@ -1058,6 +1058,13 @@ nav ul li span:nth-child(4) {
 }
 @media (max-width: 840px) {
 
+  .main {
+    user-select: none;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* IE/Edge */
+  }
+
   .navbar {
      padding: 0 5vh;
     .logo {
