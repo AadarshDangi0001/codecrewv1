@@ -150,4 +150,11 @@ function initCodeCrewScripts() {
   setupNavbarScroll();
 }
 
+const menuIcon = document.querySelector(".ri-menu-3-line");
+const sidebar = document.getElementById("sidebar");
+
+menuIcon.addEventListener("click", () => {
+  sidebar.classList.toggle("active");
+});
+
 document.addEventListener("DOMContentLoaded", initCodeCrewScripts);
