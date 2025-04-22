@@ -1588,6 +1588,7 @@ nav ul li span:nth-child(4) {
     width: 100%;
     /* background-color: rgb(17, 188, 250); */
     background-color: black;
+    margin-bottom: 20vh;
   
     .box {
       height: 100%;
