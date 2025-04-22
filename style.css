@@ -293,10 +293,13 @@ body::selection {
     display: flex;
     justify-content: end;
     align-items: center;
+    /* background-color: red; */
     .view-3-img {
       border-radius: 1rem;
-      width: 60%;
-      height: 25rem;
+      /* width: 60%;
+      height: 25rem; */
+      width: 500px;
+      height: 500px;
       background-color: gainsboro;
     }
   }
@@ -753,3 +756,117 @@ nav ul li span:nth-child(4) {
   color: grey;
 }
 
+@media (max-width: 1300px) {
+  .view-3 {
+  
+    .view-3-left {
+     
+  
+      h1 {
+        margin-left: 1rem;
+        width: 50%;
+        font-size: 4rem;
+      }
+
+      .btn2 {
+        width: 18em;
+        height: 4rem;
+      }
+    
+      
+    }
+  
+    .view-3-right {
+      .view-3-img {
+       
+        /* width: 60%;
+        height: 25rem; */
+        width: 400px;
+        height: 400px;
+       
+      }
+    }
+
+
+  }
+}
+@media (max-width: 1060px) {
+  .view-3 {
+    /* background-color: #00ffd5; */
+    height: 60vh;
+    .view-3-left {
+     
+  
+      h1 {
+        margin-left: 1rem;
+        width: 50%;
+        font-size: 3rem;
+      }
+      
+      .btn2 {
+        width: 15em;
+        height: 4rem;
+      }
+      
+    }
+  
+    .view-3-right {
+      .view-3-img {
+       
+        /* width: 60%;
+        height: 25rem; */
+        width: 300px;
+        height: 300px;
+       
+      }
+
+
+    }
+  }
+
+  .imgscollor{
+    height: 60vh;
+    width:100% ;
+    /* background-color: rgb(17, 188, 250); */
+    background-color: rgb(143, 97, 97);
+  }
+}
+@media (max-width: 840px) {
+  .imgscollor{
+    height: 50vh;
+    width:100% ;
+    /* background-color: rgb(17, 188, 250); */
+    background-color: rgb(143, 97, 97);
+  }
+  .view-3 {
+    /* background-color: #00ffd5; */
+    height: 60vh;
+    .view-3-left {
+     
+  
+      h1 {
+        margin-left: 1rem;
+        width: 60%;
+        font-size: 2.5rem;
+      }
+    
+        .btn2 {
+          font-size: 15px;
+        width: 15em;
+        height: 3rem;
+      }
+    }
+  
+    .view-3-right {
+      width: 40%;
+      .view-3-img {
+       
+        /* width: 60%;
+        height: 25rem; */
+        width: 240px;
+        height: 250px;
+       
+      }
+    }
+  }
+}
