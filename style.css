@@ -1980,3 +1980,44 @@ nav ul li span:nth-child(4) {
           
          }
       }
+
+
+
+
+@media only screen and (width: 360px) and (height: 780px) {
+  .page2 {
+         
+    height:17vh;
+   }
+ 
+   .page2 .head {
+     width: 480vw; /* slightly smaller than original 200vw */
+     height: 6vh;
+    }
+    .page2 .head2 {
+     width:260vw;
+     height: 6vh;
+    
+   }
+
+}
+
+
+
+@media only screen and (width: 393px) and (height: 852px) {
+  .page2 {
+         
+    height:17vh;
+   }
+ 
+   .page2 .head {
+     width: 400vw; /* slightly smaller than original 200vw */
+     height: 6vh;
+    }
+    .page2 .head2 {
+     width:270vw;
+     height: 6vh;
+    
+   }
+
+}
