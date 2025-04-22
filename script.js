@@ -157,4 +157,13 @@ menuIcon.addEventListener("click", () => {
   sidebar.classList.toggle("active");
 });
 
+let lastScrollY = window.scrollY;
+
+window.addEventListener("scroll", () => {
+  if (sidebar.classList.contains("active")) {
+    sidebar.classList.remove("active");
+  }
+  lastScrollY = window.scrollY;
+});
+
 document.addEventListener("DOMContentLoaded", initCodeCrewScripts);
