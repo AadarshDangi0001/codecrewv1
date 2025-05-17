@@ -23,6 +23,7 @@ body::selection {
   color: rgb(0, 0, 0); /* text color when selected */
 }
 .navbar {
+  overflow: hidden;
   box-shadow: 0 0 20px rgba(3, 3, 3, 0.6);
   top: 0;
   transition: top 0.5s ease-in-out;
@@ -314,6 +315,7 @@ body::selection {
   gap: 4vw;
   padding: 0 10vh;
   h1 {
+    margin-top: 4vh;
     font-size: 3rem;
     font-weight: 500;
   }
