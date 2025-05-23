@@ -314,8 +314,11 @@ body::selection {
   flex-direction: column;
   gap: 4vw;
   padding: 0 10vh;
+  .commu{
+     margin-top: 4vh;
+  }
   h1 {
-    margin-top: 4vh;
+   
     font-size: 3rem;
     font-weight: 500;
   }
